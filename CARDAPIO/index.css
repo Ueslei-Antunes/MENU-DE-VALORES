@@ -1,0 +1,89 @@
+/*É assim que é feito um comentario no CSS ;)*/
+
+h1, h2, p{
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 0.5px 0.5px;
+}
+body{
+    background-image: url(https://img.freepik.com/vetores-premium/conjunto-de-comida-bonito-dos-desenhos-animados-ilustracao-vetorial_304386-1515.jpg?ga=GA1.1.1972779688.1720191228&semt=ais_user);
+    font-family: Cambria;
+    padding: 20px;
+}
+.menu{
+    width: 80%;
+    background-color: dimgray;
+    opacity: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: black 5px 5px;
+    margin-top: 0%;
+    margin-bottom: 15px;
+  }
+h2{
+    font-size: 30px;
+    color: white;
+    text-shadow: black 2px 2px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1px;
+}
+h1, h2{
+    font-family: fantasy, cambria;
+
+}
+hr{
+    height: 3px;
+    background-color: black;
+    border-color: black;
+}
+.estabelecido{
+    font-family: Trebuchet MS;
+}
+.sabores, .bebidas{
+    text-align: left;
+    width: 75%;
+}
+.preço{
+    text-align: right;
+    width: 25%;
+}
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+.bottom-line{
+    margin-top: 30px;
+}
+
+
+/*RODAPE!!!!*/
+
+footer{
+    font-size: 14px;
+}
+a{
+    color: black;
+}
+a:visited{
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color:rgb(0, 0, 0)
+}
+a:active{
+    color: rgb(255, 255, 255);
+}
+.endereço{
+    margin-bottom: 5px;
+}

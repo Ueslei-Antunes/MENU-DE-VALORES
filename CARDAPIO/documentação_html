@@ -1,0 +1,9 @@
+Para que o estilo da página seja semelhante em dispositivos móveis e em um desktop ou laptop, você precisa adicionar um metaelemento com um atributo de conteúdo especial. esse elemento foi implementado na primeira linha do Head
+
+O elemento div é usado principalmente para fins de layout de design, ao contrário de outros elementos de conteúdo que você usou até agora. E dentro do elemento div pode se adicionar um ID para ficar mais facil de personalizar depois
+
+Só lembrando que o elemento footer é uma elemento de rodape que foi adicionado logo apos do elemento principal, main. 
+
+Você pode usar um elemento hr para exibir um divisor entre seções de conteúdo diferente.
+
+As propriedades padrão de um elemento hr farão com que ele apareça como uma linha fina cinza claro. Você pode alterar a altura da linha especificando um valor para a propriedade height(altura) no css.

@@ -1,0 +1,34 @@
+O elemente STYLE que se coloca dentro do HEAD no hmtl permite fazer alteração no estilo da pagina
+
+Foi adicionado o elemento h1 e nesse foi colocado a propriedade de alimento de texto e o valor foi definido para ficar no meio 
+
+Agora você precisa vincular o arquivo css com o .HTML, para que os estilos sejam aplicados novamente. Dentro do elemento head, adicione um elemento link. Dê a ele um atributo rel com o valor "stylesheet" e um atributo href com o nome do arquivo CSS
+
+O objetivo agora é fazer com que a div não ocupe toda a largura da página. A propriedade CSS width é perfeita para isso.
+Você pode usar o seletor de id para direcionar um elemento específico com um atributo id. Um seletor de id é definido colocando o símbolo hash # diretamente na frente do valor de id do elemento
+
+No CSS tem como definar largura, comprimento, borda, etc, em PX (pixel) e em % (porcentagem) a porcentagem é baseada dai no tamanho da pagina 
+
+Para centralizar horizontalmente o conteudo de uma div. Você pode fazer isso definindo suas propriedades margin-left e margin-right como auto. Pense na margem como um espaço invisível ao redor de um elemento
+
+
+Até foi usado apenas seletores de tipo e id para estilizar elementos. Entretanto, é mais comum usar um seletor diferente para estilizar seus elementos.
+Um seletor de class, esse é definido por um nome com um ponto diretamente na frente dele
+
+Para colocar os elementos P na mesma linha, você precisa aplicar algum estilo aos elementos p para que eles se comportem mais como elementos embutidos. Para fazer isso, pode-se adicionar um atributo de class com o valor igual a item ao primeiro elemento de article sob o título Café.
+
+Os elementos p agora estão aninhados em um elemento de article com o atributo de class com valor item. Você pode estilizar todos os elementos p aninhados em qualquer lugar nos elementos com uma class chamada item como este: .item p{...}
+
+Para dar algum espaço entre o conteúdo e as laterais com várias propriedades de preenchimento pode se usar um padding-left e um padding-right com o mesmo valor 20px.
+
+A largura atual do menu sempre ocupará 80(porcento) da largura do elemento body. Numa tela bem ampla, o café e a sobremesa aparecem distantes de seus preços. pode-se Adicionar uma propriedade max-width à class de menu com um valor de 500px para evitar que ela cresça muito.
+
+Com o elemento font-family é possivel altera o estilo da fonta da pagina deixando-à mais bonita
+
+Você altera as propriedades de um link quando o link foi realmente visitado usando um pseudo-seletor que se parece com a:visited { propertyName: propertyValue; }.
+Você altera as propriedades de um link quando o mouse passa sobre eles usando um pseudo-seletor que se parece com a:hover { propertyName: propertyValue; }.
+Você altera as propriedades de um link quando o link está sendo clicado usando um pseudo-seletor que se parece com a:active { propertyName: propertyValue; }
+
+imagem que você adicionou não está centralizada horizontalmente como o título Café acima dela. Os elementos img são elementos embutidos "semelhantes".
+
+Quando se adiciona uma imagem, ela vai se comportar como o elementos de título (que são no nível do bloco), crie um seletor de tipo img e use o bloco de valor para a propriedade display e use os valores margin-left e margin-right aplicáveis ​​para centralizá-lo horizontalmente.
